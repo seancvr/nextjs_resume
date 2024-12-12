@@ -6,13 +6,13 @@ export const aboutMe = `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 export const education = [
     {
         dates: "2015 - 2018",
-        subject: "BSc Computer Science",
-        place: "Stanford University"
+        subject: "BSc Numbers",
+        place: "Some University"
     },
     {
         dates: "2012 - 2014",
-        subject: "Associate Degree in Information Technology",
-        place: "California Community College"
+        subject: "Associate Degree Letters",
+        place: "Portlandia Community College"
     }
 ];
 
