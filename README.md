@@ -1,6 +1,6 @@
 # Nextjs resume template
 
-First attempt at creating a simple Nextjs portfolio website. Built on this Vercel template
+Nextjs Resume/portfolio website based on this Vercel template
 https://portfolio-blog-starter.vercel.app.
 
 The page is built using Nextjs, React, Tailwind-postcss and the Material UI component library.
@@ -13,7 +13,7 @@ I added some custom React components to represent resume sections:
 | experience.tsx    | `Uses the React useState and useEffect hooks to create a custom accordion component.` |
 | education.tsx      | `Uses the same design as experience.tsx but with different data.`|
 
-This was a useful exercise to practice some relatively simple React design principles. One particularly useful principle here is that if the underlying JSON data is well structured, it would flow easily throught the compoment structure of the UI.
+This was a useful exercise to practice some simple React front end design principles. One particularly useful principle here is that if the underlying JSON data is well structured, it will flow easily throught the compoment structure of the UI.
 
 All of the resume data is stored in the **app/lib/resume-data.ts** folder. The relevant data is imported into a each component file:
 
@@ -21,7 +21,7 @@ All of the resume data is stored in the **app/lib/resume-data.ts** folder. The r
 import { jobs } from 'app/lib/resume-data';
 ```
 
-I then used a simple JavaScript .map method to iterate over the JSON data and create a list of identical components:
+The JavaScript .map method to iterate over the JSON data and create a list of identical components:
 
 ```jsx
 //Experience component
