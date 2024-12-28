@@ -15,13 +15,13 @@ I added some custom React components to represent resume sections:
 
 This was a useful exercise to practice some simple React front end design principles. One particularly useful principle here is that if the underlying JSON data is well structured, it will flow easily throught the compoment structure of the UI.
 
-All of the resume data is stored in the **app/lib/resume-data.ts** folder. The relevant data is imported into a each component file:
+All of the resume data is stored in **app/lib/resume-data.ts**. The relevant data is imported into a each component file:
 
 ```jsx
 import { jobs } from 'app/lib/resume-data';
 ```
 
-The JavaScript .map method to iterate over the JSON data and create a list of identical components:
+The JavaScript .map method is used to iterate over the JSON data and create a list of identical components:
 
 ```jsx
 //Experience component
